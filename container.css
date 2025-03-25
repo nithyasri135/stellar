@@ -1,0 +1,27 @@
+.con
+{
+   width : 90%;
+   margin : auto;
+   text-align: top;
+
+}
+.bex
+{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+    border: 2px ridge;
+    border-radius: 10px;
+}
+.h1{
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+    font-size: 300%;
+}
+.p {
+        border: 2px solid powderblue;
+      }
+}

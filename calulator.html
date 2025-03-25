@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>calulator</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="display" class="display">
+        <div class="buttons">
+        <button class="button clear" onclick="cleardisplay()">c</button>
+        <button class="button Operation" onclick="appendOperation('/')">/</button>
+        <button class="button Operation" onclick="appendOperation('*')">*</button>
+        <button class="button Operation" onclick="appendOperation('-')">-</button>
+
+        <button class="button " onclick="appendOperation('7')">7</button>
+        <button class="button " onclick="appendOperation('8')">8</button>
+        <button class="button" onclick="appendOperation('9')">9</button>
+        <button class="button Operation" onclick="appendOperation('+')">+</button>
+
+        <button class="button" onclick="appendOperation('4')">4</button>
+        <button class="button" onclick="appendOperation('5')">5</button>
+        <button class="button" onclick="appendOperation('6')">6</button>
+        <button class="button Operation" onclick="appendOperation('=')">=</button>
+
+        <button class="button" onclick="appendOperation('1')">1</button>
+        <button class="button" onclick="appendOperation('2')">2</button>
+        <button class="button" onclick="appendOperation('3')" >3</button>
+        <button class="button Operation" onclick="appendOperation('0')">0</button>
+        </div>
+    </div>
+</body>
+</html>

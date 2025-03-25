@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and time</title>
+</head>
+<body>
+    <h1> Date and Time</h1>
+    <div id="output">
+        <p>Current Date and Time: </p>
+        <p id="currentdatetime"></p>
+        <p id="timeresult"></p>
+    </div>
+    <script>
+        console.log("Starting script.....");
+        console.time("myTimer");
+        for(let i=0;i<100000;i++){
+            let temp = Math.sqrt(i);
+        }
+        console.timeEnd("myTimer");
+        let now = new Date();
+        document.getElementById("currentdatetime").textContent= now.toLocaleString();
+        document.getElementById("timeresult").textContent = "Timer result (console):Check console ";
+        console.log("current date and time:");
+        console.log(now);
+        console.log("Timer result: ");
+    </script>
+</body>
+</html>
